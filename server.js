@@ -7,5 +7,5 @@ app.get("/", function(req, res){
 });
 
 app.listen(3000, function(){
-    console.log("Server listening on 3000");
+    console.log("Server listening on localhost:3000");
 });
