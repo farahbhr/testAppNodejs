@@ -50,10 +50,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/node-docker:latest
-          target: prod
-          cache-from: type=local,src=/tmp/.buildx-cache
-          cache-to: type=local,dest=/tmp/.buildx-cache
+          tags: ${{ secrets.DOCKER_USERNAME }}/github-actions-demo:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
