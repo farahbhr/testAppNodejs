@@ -1,2 +1,2 @@
 # testAppNodejs
-Test CI CD nodejs app
+Test CI CD Github Actions nodejs app
